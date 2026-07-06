@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 560" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5f9ff"/>
+      <stop offset="1" stop-color="#eaf2ff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a84ff"/>
+      <stop offset="1" stop-color="#0060df"/>
+    </linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b3aa0"/>
+      <stop offset="1" stop-color="#072a78"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0a3a8a" flood-opacity="0.18"/>
+    </filter>
+    <marker id="arw" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#0060df"/>
+    </marker>
+  </defs>
+
+  <rect width="940" height="560" rx="18" fill="url(#bg)"/>
+  <text x="40" y="52" font-size="24" font-weight="700" fill="#0b2a63">AposTherapy - System Architecture</text>
+  <text x="40" y="78" font-size="14" fill="#5a76a8">Standalone WordPress theme · server-rendered · unified, spam-resistant lead pipeline</text>
+
+  <!-- Presentation layer -->
+  <rect x="40" y="104" width="860" height="150" rx="14" fill="#ffffff" stroke="#d3e3ff" filter="url(#sh)"/>
+  <text x="62" y="132" font-size="13" font-weight="700" fill="#0b2a63" letter-spacing="1">PRESENTATION LAYER  ·  RTL HEBREW</text>
+
+  <g font-size="12.5" fill="#0b2a63">
+    <rect x="62" y="146" width="150" height="44" rx="9" fill="#eef5ff" stroke="#cfe0ff"/>
+    <text x="137" y="167" text-anchor="middle" font-weight="600">Design tokens</text>
+    <text x="137" y="182" text-anchor="middle" font-size="10.5" fill="#5a76a8">CSS custom props</text>
+
+    <rect x="224" y="146" width="150" height="44" rx="9" fill="#eef5ff" stroke="#cfe0ff"/>
+    <text x="299" y="167" text-anchor="middle" font-weight="600">13-section home</text>
+    <text x="299" y="182" text-anchor="middle" font-size="10.5" fill="#5a76a8">hero video · 3D · stats</text>
+
+    <rect x="386" y="146" width="150" height="44" rx="9" fill="#eef5ff" stroke="#cfe0ff"/>
+    <text x="461" y="167" text-anchor="middle" font-weight="600">A11y panel</text>
+    <text x="461" y="182" text-anchor="middle" font-size="10.5" fill="#5a76a8">motion · contrast · size</text>
+
+    <rect x="548" y="146" width="150" height="44" rx="9" fill="#eef5ff" stroke="#cfe0ff"/>
+    <text x="623" y="167" text-anchor="middle" font-weight="600">Vanilla JS</text>
+    <text x="623" y="182" text-anchor="middle" font-size="10.5" fill="#5a76a8">IIFE · zero deps</text>
+
+    <rect x="710" y="146" width="168" height="44" rx="9" fill="#eef5ff" stroke="#cfe0ff"/>
+    <text x="794" y="167" text-anchor="middle" font-weight="600">Templates + CPTs</text>
+    <text x="794" y="182" text-anchor="middle" font-size="10.5" fill="#5a76a8">stories · branches · ACF</text>
+  </g>
+
+  <g font-size="12.5" fill="#0b2a63">
+    <rect x="62" y="200" width="255" height="40" rx="9" fill="#f3f8ff" stroke="#dbe8ff"/>
+    <text x="189" y="225" text-anchor="middle" font-weight="600">Quiz modal - "check your fit"</text>
+
+    <rect x="329" y="200" width="255" height="40" rx="9" fill="#f3f8ff" stroke="#dbe8ff"/>
+    <text x="456" y="225" text-anchor="middle" font-weight="600">Contact Form 7 forms</text>
+
+    <rect x="596" y="200" width="282" height="40" rx="9" fill="#f3f8ff" stroke="#dbe8ff"/>
+    <text x="737" y="225" text-anchor="middle" font-weight="600">Scroll-triggered floating form</text>
+  </g>
+
+  <!-- arrows down to endpoint -->
+  <path d="M189,240 L189,270 L470,270 L470,286" fill="none" stroke="#0060df" stroke-width="2" marker-end="url(#arw)"/>
+  <path d="M456,240 L456,286" fill="none" stroke="#0060df" stroke-width="2" marker-end="url(#arw)"/>
+  <path d="M737,240 L737,270 L470,270" fill="none" stroke="#0060df" stroke-width="2"/>
+
+  <!-- endpoint -->
+  <rect x="300" y="288" width="340" height="42" rx="10" fill="url(#dark)" filter="url(#sh)"/>
+  <text x="470" y="314" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">Single endpoint  ·  admin-ajax (apos_lead)</text>
+
+  <path d="M470,330 L470,356" fill="none" stroke="#0060df" stroke-width="2" marker-end="url(#arw)"/>
+
+  <!-- guard -->
+  <rect x="250" y="358" width="440" height="40" rx="10" fill="#fff4e6" stroke="#ffd8a8"/>
+  <text x="470" y="383" text-anchor="middle" font-size="13" font-weight="700" fill="#9a5b00">1 · Spam guard  -  honeypot + per-IP rate limit</text>
+
+  <!-- two outputs -->
+  <path d="M470,398 L470,414 L300,414 L300,430" fill="none" stroke="#0060df" stroke-width="2" marker-end="url(#arw)"/>
+  <path d="M470,398 L470,414 L640,414 L640,430" fill="none" stroke="#0060df" stroke-width="2" marker-end="url(#arw)"/>
+
+  <rect x="150" y="432" width="300" height="66" rx="12" fill="url(#blue)" filter="url(#sh)"/>
+  <text x="300" y="460" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">2 · EMAIL to clinic</text>
+  <text x="300" y="481" text-anchor="middle" font-size="11.5" fill="#dbeaff">guaranteed - a lead is never lost</text>
+
+  <rect x="490" y="432" width="300" height="66" rx="12" fill="#ffffff" stroke="#0a84ff" stroke-width="2" filter="url(#sh)"/>
+  <text x="640" y="460" text-anchor="middle" font-size="14" font-weight="700" fill="#0b2a63">3 · CRM sync</text>
+  <text x="640" y="481" text-anchor="middle" font-size="11.5" fill="#5a76a8">non-blocking · best-effort · background</text>
+
+  <!-- side note: cross-cutting -->
+  <text x="40" y="528" font-size="11.5" fill="#5a76a8">Cross-cutting:  security headers (HSTS · anti-clickjacking · nosniff)  ·  credentials in wp-config, never in the theme  ·  WCAG 2.1 AA / IS 5568  ·  LCP preload</text>
+</svg>
