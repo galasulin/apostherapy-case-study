@@ -14,6 +14,9 @@ A premium, bilingual-ready **RTL Hebrew** website for a medical / physiotherapy 
 ![Accessibility](https://img.shields.io/badge/Accessibility-97-2e7d32)
 ![WCAG](https://img.shields.io/badge/WCAG-2.1%20AA-2e7d32)
 ![Status](https://img.shields.io/badge/status-delivered-success)
+![Launched](https://img.shields.io/badge/🚀%20Live-July%202026-2e7d32?style=for-the-badge)
+
+> 🚀 **Live since July 2026.** The redesign is now the production site. Early post-launch signal from Google Search Console: **+15% daily organic clicks** with flat impressions - i.e. a measurable **click-through-rate uplift** from the new titles, speed and UX.
 
 ---
 
@@ -63,6 +66,20 @@ A classic **server-rendered WordPress theme** (no page builder, no client framew
 
 ---
 
+## 🔍 SEO · GEO · AIO Engineering
+
+Search visibility is engineered into the theme itself, not bolted on with a plugin - and extended to the new generation of **AI answer engines**.
+
+| Layer | What was built |
+| ----- | -------------- |
+| **Structured data** | Hand-authored **schema.org JSON-LD**: `MedicalClinic` + `LocalBusiness` (name, phone, branch addresses, service areas), `Organization`, `Physician`, `WebSite` (with `SearchAction`), `BreadcrumbList`, `MedicalWebPage` - plus an **auto-generated `FAQPage`** that reads the on-page accordion at render time, so every current *and future* FAQ feeds Google rich results with zero maintenance |
+| **Meta & language** | Per-page **titles + meta descriptions**, self-referential **canonical**, **hreflang** (`he` + `x-default`), full **Open Graph** + Twitter `summary_large_image`, and enhanced robots directives (`max-image-preview:large`, `max-snippet:-1`) live on every page |
+| **GEO / AIO** (AI search) | A structured **`llms.txt`** site-map for LLMs (service summary, proof points, every key page by category) + an explicit **AI-crawler allow-list** in `robots.txt` (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Applebot-Extended, CCBot …) so the clinic can surface in **ChatGPT / Gemini / Perplexity** and Google AI Overviews |
+| **Indexing & discovery** | XML sitemaps (index + page + patients), verified in **Google Search Console** *and* **Bing Webmaster Tools**; a live per-page SEO audit confirmed unique, keyword-focused metadata across the site |
+| **Email authentication** | Full anti-spoofing trio configured at the DNS zone: **SPF + DKIM + DMARC** |
+
+---
+
 ## 📈 Results
 
 | Metric | Result |
@@ -74,6 +91,12 @@ A classic **server-rendered WordPress theme** (no page builder, no client framew
 | **Accessibility standard** | Israeli Standard 5568 (WCAG 2.1 AA) |
 | **Lead capture** | Guaranteed email + automatic CRM sync, spam-guarded |
 | **Migration / downtime** | **Zero** - shipped alongside the existing site |
+| **Launch** | **Live since July 2026** - now the production site |
+| **Organic search (quarter)** | **~28.5K clicks · 1.29M impressions** (Google Search Console) |
+| **Post-launch signal** | **+15% daily organic clicks**, flat impressions → CTR uplift |
+| **Indexing** | **368 pages indexed**; sitemaps healthy on Google + Bing |
+| **AI search readiness** | `llms.txt` + AI-crawler allow-list + rich structured data |
+| **Email auth** | SPF + DKIM + **DMARC** (full anti-spoofing) |
 
 ---
 
