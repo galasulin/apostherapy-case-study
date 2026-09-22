@@ -1,6 +1,6 @@
-# 🩺 AposTherapy - Website Redesign & Build · Project Showcase
+# 🩺 AposTherapy — Website Redesign & Build · Project Showcase
 
-A premium, bilingual-ready **RTL Hebrew** website for a medical / physiotherapy clinic that I designed and built end-to-end - a standalone WordPress theme, performance-first, fully accessible, with a unified email-plus-CRM lead engine.
+A **Hebrew, RTL** website for a physiotherapy clinic that I designed and built end-to-end: a standalone WordPress theme, performance-first, built to WCAG 2.1 AA / IS 5568, with a unified email-plus-CRM lead engine.
 
 > 🔒 **This is a public showcase, not the source.** The theme's code and any real data are kept private. Everything here is a high-level overview; all credentials, CRM keys and internal data were removed and are supplied through `wp-config.php`.
 
@@ -14,19 +14,20 @@ A premium, bilingual-ready **RTL Hebrew** website for a medical / physiotherapy 
 ![Accessibility](https://img.shields.io/badge/Accessibility-97-2e7d32)
 ![WCAG](https://img.shields.io/badge/WCAG-2.1%20AA-2e7d32)
 ![Status](https://img.shields.io/badge/status-delivered-success)
-![On-site assistant](https://img.shields.io/badge/On--site%20assistant-self--hosted%20·%20zero--cost-0071e3)
-![Q&A center](https://img.shields.io/badge/Q%26A%20center-6%20topics-0071e3)
-![Launched](https://img.shields.io/badge/🚀%20Live-July%202026-2e7d32?style=for-the-badge)
 
-> 🚀 **Live since July 2026.** The redesign is now the production site. Early post-launch signal from Google Search Console: **+15% daily organic clicks** with flat impressions - i.e. a measurable **click-through-rate uplift** from the new titles, speed and UX.
+> 🚀 **Live since July 2026.** The redesign is now the production site. Early post-launch signal from Google Search Console: **+15% daily organic clicks** at flat impressions — an early click-through-rate improvement; too soon to attribute fully.
 
 ---
 
 ## 📋 Overview / סקירה
 
-🇬🇧 A ground-up redesign and rebuild of a physiotherapy clinic's website, delivered as an **independent WordPress theme** that installs *alongside* the existing site - reusing the same custom post types, ACF fields, menus and form wiring, so it could be previewed live and switched on with **zero data migration and zero downtime**. The guiding idea is **a design system, not one-off pages**: a single design-token layer feeds every section, so the look stays consistent and each new page inherits it automatically. It is **server-rendered** for SEO, **fully accessible** to WCAG 2.1 AA / Israeli Standard 5568, tuned for **fast Core Web Vitals**, and built around one job - turning visitors into qualified leads through a guided **"check your fit" quiz** and a **unified lead engine** that never loses a submission. A **self-hosted, zero-cost on-site assistant** and a dedicated **Q&A knowledge center** round out the experience - both dependency-free, accessible, and with no visitor data leaving the site.
+🇬🇧 A ground-up redesign and rebuild of a physiotherapy clinic's website, delivered as an **independent WordPress theme** that installs *alongside* the existing site - reusing the same custom post types, ACF fields, menus and form wiring, so it could be previewed live and switched on with **zero data migration and zero downtime**. The guiding idea is **a design system, not one-off pages**: a single design-token layer feeds every section, so the look stays consistent and each new page inherits it automatically. It is **server-rendered** for SEO, **built to** WCAG 2.1 AA / Israeli Standard 5568 (Lighthouse accessibility 97), tuned for **fast Core Web Vitals**, and built around one job - turning visitors into qualified leads through a guided **"check your fit" quiz** and a **unified lead engine** that emails every submission before attempting the CRM sync. A **self-hosted, zero-cost on-site assistant** and a dedicated **Q&A knowledge center** round out the experience - both dependency-free, accessible, and with no visitor data leaving the site.
 
-🇮🇱 עיצוב ובנייה מחדש של אתר מרפאת פיזיותרפיה, כערכת עיצוב **עצמאית ל-WordPress** שמותקנת לצד האתר הקיים - שומרת על אותם סוגי תוכן, שדות ACF, תפריטים וחיבורי טפסים, כך שאפשר לצפות בה באוויר ולהפעיל אותה בלי הגירת נתונים ובלי זמן השבתה. הרעיון המנחה - **מערכת עיצוב, לא עמודים בודדים**: שכבת design-tokens אחת מזינה כל סקשן, וכל עמוד חדש יורש את השפה אוטומטית. האתר **מרונדר בשרת** לטובת SEO, **נגיש מלא** לפי ת"י 5568 / WCAG 2.1 AA, מכוון ל**ביצועים גבוהים**, ובנוי סביב מטרה אחת - להפוך מבקרים ללידים דרך **שאלון התאמה** מודרך ו**מנוע לידים אחוד** שלא מאבד אף פנייה. משלימים את החוויה **עוזר צ'אט עצמאי בעלות אפס** (ללא בינה חיצונית, בלי שליחת מידע החוצה) ו**מרכז שאלות ותשובות** ייעודי - שניהם נגישים, ללא תלות בשירות חיצוני.
+<div dir="rtl">
+
+עיצוב ובנייה מחדש של אתר מרפאת פיזיותרפיה, כערכת עיצוב **עצמאית ל-WordPress** שמותקנת לצד האתר הקיים - שומרת על אותם סוגי תוכן, שדות ACF, תפריטים וחיבורי טפסים, כך שאפשר לצפות בה על האתר החי ולהפעיל אותה בלי הגירת נתונים ובלי זמן השבתה. הרעיון המנחה - **מערכת עיצוב, לא עמודים בודדים**: שכבת design-tokens אחת מזינה כל סקשן, וכל עמוד חדש יורש את השפה אוטומטית. האתר **מרונדר בשרת** לטובת SEO, **נבנה לעמידה בדרישות** ת"י 5568 / WCAG 2.1 AA, מכוון ל**ביצועים גבוהים**, ובנוי סביב מטרה אחת - להפוך מבקרים ללידים דרך **שאלון התאמה** מודרך ו**מנוע לידים אחוד** ששולח כל פנייה במייל לפני הסנכרון ל-CRM. משלימים את החוויה **עוזר צ'אט מקומי ללא עלות שוטפת** (ללא בינה חיצונית, בלי שליחת מידע החוצה) ו**מרכז שאלות ותשובות** ייעודי - שניהם נגישים, ללא תלות בשירות חיצוני. 🇮🇱
+
+</div>
 
 ---
 
@@ -34,7 +35,7 @@ A premium, bilingual-ready **RTL Hebrew** website for a medical / physiotherapy 
 
 ![Architecture](assets/architecture.svg)
 
-A classic **server-rendered WordPress theme** (no page builder, no client framework) on top of the clinic's existing data. Every lead path - the quiz modal, every Contact Form 7 form, and a scroll-triggered floating form - funnels into **one endpoint** (`admin-ajax`), which first runs a spam guard (hidden honeypot + per-IP rate limit), then **always emails the clinic**, and only then pushes to the CRM in the background. The principle is **capture first, sync second**: the email is guaranteed so a lead is never lost, while the CRM sync is best-effort and its failures never touch the visitor. Credentials live in `wp-config.php` constants (never in the theme) and are overridable through a single WordPress filter.
+A classic **server-rendered WordPress theme** (no page builder, no client framework) on top of the clinic's existing data. Every lead path - the quiz modal, every Contact Form 7 form, and a scroll-triggered floating form - funnels into **one endpoint** (`admin-ajax`), which first runs a spam guard (hidden honeypot + per-IP rate limit), then **emails the clinic first**, and only then pushes to the CRM in the background. The principle is **capture first, sync second**: the email goes out before anything else, so a CRM outage can't drop a lead, while the CRM sync is best-effort and its failures never touch the visitor. Credentials live in `wp-config.php` constants (never in the theme) and are overridable through a single WordPress filter.
 
 ---
 
@@ -42,10 +43,10 @@ A classic **server-rendered WordPress theme** (no page builder, no client framew
 
 | Area | Highlights |
 | ---- | ---------- |
-| **Design system** | A **design-token** CSS layer (custom properties for a royal-blue scale + semantic colors) that every section reads from · fluid typography with `clamp()` · Hebrew-first pairing (**Heebo** body + **Secular One** display, `font-synthesis:none`) · glassmorphism & `backdrop-filter` · a tasteful **3D tilt** on hover · one shared component language so the whole site feels cohesive |
-| **Homepage** | A **13-section** narrative landing page: a cinematic hero with an **autoplaying muted video**, a health-fund trust bar, "how it works", a pain-area navigator, the gait-lab feature, awards, an **animated 3D stats band**, patient stories, the treatment-path process, a conditions grid, social proof, hand-picked articles, and a closing call-to-action |
+| **Design system** | A **design-token** CSS layer (custom properties for a royal-blue scale + semantic colors) that every section reads from · fluid typography with `clamp()` · Hebrew-first pairing (**Heebo** body + **Secular One** display, `font-synthesis:none`) · glassmorphism & `backdrop-filter` · a subtle **3D tilt** on hover · one shared component language so the whole site feels cohesive |
+| **Homepage** | A **13-section** narrative landing page: a hero with an **autoplaying muted video**, a health-fund trust bar, "how it works", a pain-area navigator, the gait-lab feature, awards, an **animated 3D stats band**, patient stories, the treatment-path process, a conditions grid, social proof, hand-picked articles, and a closing call-to-action |
 | **Conversion / quiz** | A multi-step **"check your fit" modal** (בדקו התאמתכם) - guided questions (pain area, duration, age group, health fund) that turn an anonymous visitor into a **qualified, contextual lead** · sticky-header and inline CTAs throughout · a **scroll-triggered floating lead form** with a marketing-consent checkbox |
-| **Lead engine** | **One pipeline** for the quiz *and* every contact form → `admin-ajax` → **guaranteed email** to the clinic + **non-blocking CRM sync** · hidden **honeypot** + **per-IP rate limit** block bots · consent-first (an unchecked marketing-consent checkbox on every form) · fully **filterable** config · a hardened **legacy endpoint** kept alive for the cache-refresh window so no lead is dropped during a deploy |
+| **Lead engine** | **One pipeline** for the quiz *and* every contact form → `admin-ajax` → **email-first** delivery to the clinic + **non-blocking CRM sync** · hidden **honeypot** + **per-IP rate limit** block bots · consent-first (an unchecked marketing-consent checkbox on every form) · fully **filterable** config · a hardened **legacy endpoint** kept alive for the cache-refresh window so no lead is dropped during a deploy |
 | **On-site assistant ("גל")** | A **self-hosted, zero-cost** chat assistant - **no external AI API, no per-message fee, no visitor data leaving the site** - that answers the common questions (treatments, health funds, pricing, branches, booking) from a **keyword + synonym** knowledge base, with **WhatsApp / click-to-call handoff** and its own **lead-capture** path · **admin-managed** from wp-admin (master on/off, editable answers & FAQ, branch data pulled live from the CMS) · logs **unanswered questions** and 👍/👎 feedback so the knowledge base keeps improving · shows **site-wide, including future pages**, and honors reduce-motion |
 | **Q&A knowledge center** | A dedicated **שאלות ותשובות** hub plus **6 condition sub-topics** (Achilles, sports-injury & rehab, back & neck, knees, hip & pelvis, ankle & foot) rendered in the site's **article design** - sidebar topic-nav, breadcrumbs, styled accordions and **staggered scroll-reveal** · **auto-templated** (the right design is applied by page slug/title, so no manual per-page setup and any future topic inherits it) · content stays **editable in wp-admin** (page body / ACF), and it **feeds the auto-generated `FAQPage` schema** for Google rich results |
 | **Accessibility** (WCAG 2.1 AA / ת"י 5568) | A visitor-facing **accessibility panel** - **reduce motion**, **high contrast** and **text-size** controls, each **persisted per device** · skip-to-content link · semantic landmarks · full **keyboard navigation** for the mega-menu · every animation gated behind `prefers-reduced-motion` · correctly-sized images (no layout shift) and descriptive alt text |
@@ -95,11 +96,10 @@ Search visibility is engineered into the theme itself, not bolted on with a plug
 | **Lighthouse - Best Practices** | **92 / 100** |
 | **Lighthouse - Performance** | **89** mobile · ~**97** desktop |
 | **Accessibility standard** | Israeli Standard 5568 (WCAG 2.1 AA) |
-| **Lead capture** | Guaranteed email + automatic CRM sync, spam-guarded |
+| **Lead capture** | Email-first + background CRM sync, spam-guarded |
 | **Migration / downtime** | **Zero** - shipped alongside the existing site |
 | **Launch** | **Live since July 2026** - now the production site |
-| **Organic search (quarter)** | **~28.5K clicks · 1.29M impressions** (Google Search Console) |
-| **Post-launch signal** | **+15% daily organic clicks**, flat impressions → CTR uplift |
+| **Post-launch signal** | **+15% daily organic clicks** at flat impressions (early, not yet attributable) |
 | **Indexing** | **368 pages indexed**; sitemaps healthy on Google + Bing |
 | **AI search readiness** | `llms.txt` + AI-crawler allow-list + rich structured data |
 | **Email auth** | SPF + DKIM + **DMARC** (full anti-spoofing) |
@@ -111,8 +111,6 @@ Search visibility is engineered into the theme itself, not bolted on with a plug
 <div align="center">
 <img src="assets/hero.png" alt="AposTherapy - homepage" width="820">
 </div>
-
-> More screens can be added here (quiz modal · accessibility panel · condition pages · lead forms).
 
 ---
 
