@@ -116,13 +116,14 @@ Search visibility is engineered into the theme itself, not bolted on with a plug
 
 ## 🚀 Landing pages
 
-Three campaign landing pages I designed and built for the clinic network, alongside the main site. Each one has its own showcase repo with a live portfolio copy (static, tracking removed, lead form disconnected):
+Four campaign landing pages I designed and built for the clinic network, alongside the main site. Each one has its own showcase repo with a live portfolio copy (static, tracking removed, lead form disconnected):
 
 | Page | What is special | Repo | Live copy |
 |---|---|---|---|
 | **APOS4 product page** | The APOS4 system comes apart and snaps back together as you scroll: a sticky, scroll-driven frame sequence on canvas | [apos4-scroll-landing](https://github.com/galasulin/apos4-scroll-landing) | [open](https://galasulin.github.io/apos4-scroll-landing/) |
 | **Research-led page** | "87% reported less pain": a CSS 3D hero you can drag, animated counters, staggered scroll reveals and an FAQ backed by structured data | [apostherapy-research-landing](https://github.com/galasulin/apostherapy-research-landing) | [open](https://galasulin.github.io/apostherapy-research-landing/) |
 | **Lead-capture page** | The original campaign page: an always-visible form on desktop, a sticky action bar and full-screen form on mobile | [apostherapy-lead-landing](https://github.com/galasulin/apostherapy-lead-landing) | [open](https://galasulin.github.io/apostherapy-lead-landing/) |
+| **APOS4 pods page (first version)** | The pods detach from the sole and return to a personal position as you scroll: a pinned stage driven by `requestAnimationFrame` and CSS transforms on four real pod cut-outs | [apos4-pods-landing](https://github.com/galasulin/apos4-pods-landing) | [open](https://galasulin.github.io/apos4-pods-landing/) |
 
 ---
 
@@ -133,5 +134,6 @@ This repository intentionally contains **no source code, no credentials, and no 
 ---
 
 <div align="center">
+<b>Built by <a href="https://github.com/galasulin">Gal Asulin</a>, IT Manager</b><br/>
 <sub>Designed, developed and delivered by <a href="https://github.com/galasulin">@galasulin</a> · Web &amp; IT.</sub>
 </div>
