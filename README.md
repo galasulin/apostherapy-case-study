@@ -1,5 +1,7 @@
 # 🩺 AposTherapy — Website Redesign & Build · Project Showcase
 
+**[🇬🇧 English](README.md) · [🇮🇱 עברית](README.he.md)**
+
 A **Hebrew, RTL** website for a physiotherapy clinic that I designed and built end-to-end: a standalone WordPress theme, performance-first, built to WCAG 2.1 AA / IS 5568, with a unified email-plus-CRM lead engine.
 
 > 🔒 **This is a public showcase, not the source.** The theme's code and any real data are kept private. Everything here is a high-level overview; all credentials, CRM keys and internal data were removed and are supplied through `wp-config.php`.
